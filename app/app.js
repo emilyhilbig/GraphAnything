@@ -4,8 +4,7 @@
 angular.module('graphAnything', [
   'ngRoute',
   'graphAnything.view1',
-  'graphAnything.view2',
-  'graphAnything.version'
+  'graphAnything.view2'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
